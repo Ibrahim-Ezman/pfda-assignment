@@ -1,6 +1,6 @@
-# PFDA Assignment — UNSW NB15 Network Traffic Analysis
+# Programming for Data Analysis (PFDA) Assignment — UNSW NB15 Network Traffic Analysis
 
-**CT127-3-2-PFDA (Programming for Data Analysis) | R | Group project**
+**CT127-3-2-PFDA | R | Group project**
 
 Analyzing 175K network flow records to distinguish normal vs attack traffic using the UNSW NB15 dataset.
 
