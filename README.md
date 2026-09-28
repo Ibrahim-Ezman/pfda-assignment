@@ -3,14 +3,27 @@
 **Module:** CT127-3-2-PFDA — Programming For Data Analysis
 **University:** Asia Pacific University (APU)
 **Hand Out:** 1 November 2025 | **Hand In:** 6 December 2025 | **Weightage:** 50%
-**Language:** Python / R (as per assignment requirements)
-**Group:** Group Work (5 members)
+**Language:** R (RStudio)
+**Group:** Group Work (4 members)
 
 ---
 
 ## Project Overview
 
-This is a group assignment for PFDA. The task is to analyze the **UNSW NB15 network traffic dataset** — a comprehensive collection of network flow records labeled as normal or various attack types. The goal is to perform data import, preparation, exploratory data analysis, and hypothesis testing.
+This is a group assignment for PFDA. The task is to analyze the **UNSW NB15 network traffic dataset** — a comprehensive collection of network flow records labeled as normal or various attack types. The goal is to perform data import, preparation, exploratory data analysis, and hypothesis testing using R programming.
+
+## Assignment Brief Summary
+
+- **Coursework Title:** Cyber intrusion detection and classification
+- **Type:** Group Assignment (4 members)
+- **Deliverables:** RScript (source code) + 6500-word report
+- **Requirements:**
+  - R program must compile and execute without errors
+  - Cleaning and pre-processing must be done in R using scripting (no Excel/OpenRefine)
+  - No duplication allowed in the dataset
+  - Good programming practices: comments, variable naming, indentation
+  - Each objective starts on a separate page with student name
+  - Extra features in separate page with explanation
 
 ## Dataset: UNSW NB15
 
@@ -42,59 +55,35 @@ The UNSW NB15 dataset is a network intrusion detection dataset created by the Au
 - Shellcode — Code injection attempts
 - Worms — Self-propagating malware
 
-## Assignment Structure (Group Work)
+## R Code Included
 
-The report template follows this structure:
+**PFDA_Analysis.R** — Complete R script covering:
 
-1. **Introduction (group work)** — Data import and description, assumptions
-2. **Student sections** — Objectives, Data Preparation, EDA, Hypothesis Testing, Conclusion (each student has their own section)
-3. **Overall Conclusion (group work)** — Group hypothesis, overall conclusion, limitations
-4. **Workload Matrix** — Member responsibilities
-
-### What Each Student Does
-- Max 3 objectives per student
-- Data preparation (missing values, outliers, duplicates, data types, inconsistencies)
-- EDA with summary statistics and 1–2 charts per objective
-- Formulate and test 1 hypothesis per objective
-- Conclusion per section
-
-## Analysis Approach
-
-### Data Preparation
-- Check and handle missing values
-- Detect and handle outliers
-- Remove duplicates
-- Check data types
-- Handle inconsistent categorical entries
-- Check for negative/zero values
-- Normalize/scale where needed
-- Final validation
-
-### Exploratory Data Analysis
-- Summary statistics per objective
-- Visualizations: distribution plots, correlation heatmaps, attack category breakdowns
-- Feature importance analysis
-
-### Hypothesis Testing
-- Formulate null/alternative hypotheses per objective
-- Statistical tests (t-test, chi-square, ANOVA as appropriate)
-- Interpret results with APA referencing
+1. **Data Import and Description** — Load CSV, display structure, summary statistics
+2. **Data Preparation** — Missing values, duplicate removal, type conversion, categorical validation, negative value checks
+3. **Exploratory Data Analysis** — Attack category distribution, protocol distribution, service distribution, label distribution
+4. **Hypothesis Testing** — T-tests, ANOVA, chi-square tests for normal vs attack differences
+5. **Visualization** — Bar plots, pie charts, boxplots, scatter plots (saved to plots/ folder)
+6. **Feature Analysis** — Correlation matrix, top correlations with label
+7. **Data Validation** — Final checks, cleaned dataset export
 
 ## File Structure
 
 ```
 PFDA Assignment/
-├── 1. Assignment question.pdf     # Full assignment brief
-├── 2. APU Assignment Cover.doc    # Cover page template
+├── PFDA_Analysis.R              # R script for analysis (MAIN DELIVERABLE)
+├── 5. UNSW_NB15.csv             # Main dataset (175K records)
+├── 5. UNSW_NB15 - Copy.csv      # Dataset backup
+├── 6. NUSW-NB15_features.csv    # Feature descriptions
+├── 1. Assignment question.pdf   # Full assignment brief
 ├── Assignment Report Template(1).docx  # Report structure template
-├── 5. UNSW_NB15.csv              # Main dataset (175K records)
-├── 6. NUSW-NB15_features.csv     # Feature descriptions
-└── CustomerSQL.sql               # SQL scripts
+├── CustomerSQL.sql              # SQL scripts
+└── README.md                    # This file
 ```
 
 ## Group Work Note
 
-This is a **group project** for CT127-3-2-PFDA with 5 members. Each member is responsible for their own analysis section in the report. The workload matrix in the final report specifies each member's assigned columns and contributions.
+This is a **group project** for CT127-3-2-PFDA with 4 members. Each member is responsible for their own analysis section in the report. The workload matrix in the final report specifies each member's assigned columns and contributions.
 
 ---
 
