@@ -20,6 +20,6 @@ Analyzing 175K network flow records to distinguish normal vs attack traffic usin
 
 ## Files
 - `PFDA_Analysis.R` — full group script (Ibrahim = Member 4)
-- `5. UNSW_NB15.csv` — dataset (175K records, 49 features)
-- `6. NUSW-NB15_features.csv` — feature descriptions
-- `1. Assignment question.pdf` — brief
+- `data/UNSW_NB15.csv` — dataset (175K records, 49 features)
+- `data/UNSW_NB15_features.csv` — feature descriptions
+- `docs/assignment-brief.pdf` — brief
