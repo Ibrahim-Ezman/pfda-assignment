@@ -1,6 +1,6 @@
 # PFDA Assignment — UNSW NB15 Network Traffic Analysis
 
-**CT127-3-2-PFDA | R | Group 16 (5 members)**
+**CT127-3-2-PFDA | R | Group project**
 
 Analyzing 175K network flow records to distinguish normal vs attack traffic using the UNSW NB15 dataset.
 
@@ -19,7 +19,7 @@ Analyzing 175K network flow records to distinguish normal vs attack traffic usin
 **3 charts:** duration histogram (normal=green/attack=red), duration boxplot, protocol distribution stacked bar (proportional by attack status)
 
 ## Files
-- `PFDA_Analysis.R` — full 1060-line group script (Ibrahim = Member 4)
+- `PFDA_Analysis.R` — full group script (Ibrahim = Member 4)
 - `5. UNSW_NB15.csv` — dataset (175K records, 49 features)
 - `6. NUSW-NB15_features.csv` — feature descriptions
 - `1. Assignment question.pdf` — brief
