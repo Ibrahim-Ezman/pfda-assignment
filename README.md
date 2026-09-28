@@ -19,7 +19,7 @@ Analyzing 175K network flow records to distinguish normal vs attack traffic usin
 **3 charts:** duration histogram (normal=green/attack=red), duration boxplot, protocol distribution stacked bar (proportional by attack status)
 
 ## Files
-- `PFDA_Analysis.R` — full group script (Ibrahim = Member 4)
-- `data/UNSW_NB15.csv` — dataset (175K records, 49 features)
-- `data/UNSW_NB15_features.csv` — feature descriptions
-- `docs/assignment-brief.pdf` — brief
+- `pfda/PFDA_Analysis.R` — full group script (Ibrahim = Member 4)
+- `pfda/data/UNSW_NB15.csv` — dataset (175K records, 49 features)
+- `pfda/data/UNSW_NB15_features.csv` — feature descriptions
+- `pfda/docs/assignment-brief.pdf` — brief
